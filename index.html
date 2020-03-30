@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Book</title>
+    <link rel="stylesheet" href="css/book.css">
+</head>
+
+
+
+
+<body class="dark" onload="onInit()" onclick="closeModal()">
+
+    <h1>Welcome to the BookShop!</h1>
+    <p class="create" onclick="onAddBook()">create a new book</p>
+
+
+
+
+    <div class="modal">
+       <div class="imgModal"> </div>
+        <div class="modalContainer">
+            <div class="title"></div>
+            <div class="price"></div>
+            <div class="rate"></div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <table class="center-table">
+            <thead>
+                <tr>
+                    <th style="display: none;">id</th>
+                    <th>Title</th>
+                    <th>price</th>
+                    <th class="center" colspan="3">actions</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="js/storage-service.js"></script>
+    <script src="js/util-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+
+</html>

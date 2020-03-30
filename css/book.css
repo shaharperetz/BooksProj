@@ -1,0 +1,204 @@
+body {
+
+    background-color: rgb(161, 161, 161);
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.create {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgb(76, 76, 179);
+    padding: 20px 20px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.container {
+
+    min-height: 500px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+table {
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+
+
+td,
+th {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.red {
+    background-color: rgb(190, 76, 76);
+    color: white;
+    font-style: italic;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    padding: 7px 25px;
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(42, 84, 221);
+    color: white;
+    font-style: italic;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    padding: 7px 25px;
+}
+
+.orange {
+    background-color: rgb(240, 165, 68);
+    color: white;
+    font-style: italic;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 7px 25px;
+    border: 0px;
+
+}
+
+.modal {
+
+    height: 50%;
+    width: 70%;
+    background-color: rgb(82, 50, 50);
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    border-radius: 6px;
+    opacity: 98%;
+    display: none;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px 2px rgb(44, 44, 44);
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+
+.imgModal {
+    display: flex;
+    height: 90%;
+    width: 25%;
+    background-color: grey;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 3px;
+    border-radius: 10px;
+    margin-right: 3px;
+    opacity: 1;
+    margin-right: 50px;
+
+}
+
+
+.inside-img{
+width: 100%;
+height: 100%;
+display: flex;
+}
+
+
+.modalContainer {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    font-size: 70px;
+    border-radius: 3px;
+}
+
+
+.price {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.rate {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.book-details {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(190, 189, 189);
+    font-size: 30px;
+}
+
+
+.modalContainer  button{
+    border-radius: 3px;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: grey;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *****helpers****** */
+
+
+.center {
+    text-align: center;
+}
+
+.center-table {
+    margin-top: 20px;
+    position: relative;
+}
